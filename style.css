@@ -1,3 +1,18 @@
-body {
+@charset "utf-8";
+/* CSS Document */
 
+body {
+ text-align: center;
+	background-color: indigo;
+}
+
+h1 {
+  font-size: 200%;
+  color: gold;
+  text-align: center;
+	text-decoration: wavy 5px gold;
+}
+img {
+	border:15px dotted gold;
+	bordar-radius: 20%
 }
