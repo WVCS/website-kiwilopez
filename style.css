@@ -2,48 +2,49 @@
 /* CSS Document */
 
 body {
-    text-align: center;
-    background-color: indigo;
+  text-align: center;
+  background-color: indigo;
 }
+
 h1 {
-    font-size: 200%;
-    color: gold;
-    text-align: center;
-    text-decoration: wavy 5px gold;
+  font-size: 200%;
+  color: gold;
+  text-align: center;
+  text-decoration: wavy 5px gold;
 }
+
 img {
-    width: 500px; 
-    height: auto; 
-    border-image-width: fill;
-    border: 15px dotted gold;
-    border-radius: 50%; 
+  width: 500px;
+  height: auto;
+  border-image-width: fill;
+  border: 15px dotted gold;
+  border-radius: 58%;
 }
+
+/* Navigation Bar Styling */
 .navbar {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: Arial, sans-serif;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 
 .nav-link {
   color: gold;
-  text-decoration: none; 
+  text-decoration: none;
   padding: 5px 15px;
   transition: all 0.3s ease;
 }
-
 
 .nav-link:hover {
   text-decoration: underline;
   text-decoration-style: wavy;
 }
 
-
 .nav-link.active {
   font-weight: bold;
   border-bottom: 2px solid gold;
 }
-
 
 .nav-divider {
   color: gold;
